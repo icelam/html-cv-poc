@@ -4,8 +4,9 @@ A proof of concept to make nice-looking CV in a single HTML file, and support pr
 
 ## Demo
 
-https://raw.githubusercontent.com/icelam/html-cv-poc/master/demo/desktop.mp4
-https://raw.githubusercontent.com/icelam/html-cv-poc/master/demo/mobile.mp4
+https://user-images.githubusercontent.com/6780420/176546428-b7e08577-8ec7-411e-b27e-2fa9c28287d1.mp4
+
+https://user-images.githubusercontent.com/6780420/176546465-2a9d1ae0-b3ff-4566-ab74-799407b9f9e5.mp4
 
 ## Supported Browsers
 
