@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/6780420/176546465-2a9d1ae0-b3ff-4566-a
 
 |                 | Display                          | Print                                                                                                            |
 |-----------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Google Chrome   | Yes                              | Yes                                                                                                              |
+| Google Chrome   | Yes                              | Yes, except iOS version                                                                                          |
 | Mozilla Firefox | Yes                              | Yes, except Android and iOS version                                                                              |
 | Microsoft Edge  | Yes (Tested on Chromium version) | Yes (Tested on Chromium version)                                                                                 |
 | Apple Safari    | Yes                              | Limited support until Safari can support [`@page`](https://developer.mozilla.org/en-US/docs/Web/CSS/@page) media |
