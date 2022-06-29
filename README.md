@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/6780420/176546465-2a9d1ae0-b3ff-4566-a
 
 ## Development Notes
 
-Everything, including contents and styles are self-contained within `cv.html`. To preview the changes, simply open `cv.html` in any supported browsers listed in the "[Supported Browsers](#supported-browsers)" section. For frequent updates and preview, you can serve the page in any development server that support live realod, for instance [`es-dev-server`](https://www.npmjs.com/package/es-dev-server).
+Everything, including contents and styles are self-contained within `index.html`. To preview the changes, simply open `index.html` in any supported browsers listed in the "[Supported Browsers](#supported-browsers)" section. For frequent updates and preview, you can serve the page in any development server that support live realod, for instance [`es-dev-server`](https://www.npmjs.com/package/es-dev-server).
 
 ### Starting a development server
 
@@ -27,7 +27,7 @@ A development server which support live reload can be start with the below comma
 
 ```bash
 # Assuming Node.js and npm is properly installed
-npx es-dev-server@2.1.0 --root-dir ./ --app-index cv.html --node-resolve --watch --open --port 8000
+npx es-dev-server@2.1.0 --root-dir ./ --app-index index.html --node-resolve --watch --open --port 8000
 ```
 
 ### Changing theme
