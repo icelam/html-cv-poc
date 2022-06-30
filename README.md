@@ -23,6 +23,19 @@ https://user-images.githubusercontent.com/6780420/176546465-2a9d1ae0-b3ff-4566-a
 | Microsoft Edge  | Yes (Tested on Chromium version) | Yes (Tested on Chromium version)                                                                                 |
 | Apple Safari    | Yes                              | Limited support until Safari can support [`@page`](https://developer.mozilla.org/en-US/docs/Web/CSS/@page) media |
 
+### Available Themes
+
+There are 9 ready-to-use themes. To change the theme, simply change the `data-theme` attribute in `<body>` tag.
+
+```diff
+- <body data-theme="orange">
++ <body data-theme="azure">
+```
+
+Below are the themes available:
+
+![Themes: orange / yellow / green / dark-cyan / azure / blue / pink / red / purple](./demo/themes.png)
+
 ## Development Notes
 
 Everything, including contents and styles are self-contained within `index.html`. To preview the changes, simply open `index.html` in any supported browsers listed in the "[Supported Browsers](#supported-browsers)" section. For frequent updates and preview, you can serve the page in any development server that support live realod, for instance [`es-dev-server`](https://www.npmjs.com/package/es-dev-server).
@@ -34,15 +47,4 @@ A development server which support live reload can be start with the below comma
 ```bash
 # Assuming Node.js and npm is properly installed
 npx es-dev-server@2.1.0 --root-dir ./ --app-index index.html --node-resolve --watch --open --port 8000
-```
-
-### Changing theme
-
-To change the theme, simply change the `data-theme` attribute in `<body>` tag. Available themes are:
-
-* orange / yellow / green / dark-cyan / azure / blue / pink / red / purple
-
-```diff
-- <body data-theme="orange">
-+ <body data-theme="azure">
 ```
